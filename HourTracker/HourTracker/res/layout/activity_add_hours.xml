@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context=".AddHours" >
+
+    <Button 
+        android:id="@+id/selectJobButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_job_string"
+        android:onClick="selectJobButtonClick" />
+    
+    <Button 
+        android:id="@+id/selectStartTimeButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_start_time_string"
+        android:onClick="selectStartTimeButtonClick" />
+    
+    <Button 
+        android:id="@+id/selectEndTimeButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_end_time_string"
+        android:onClick="selectEndTimeButtonClick" />
+    
+    <Button 
+        android:id="@+id/selectDateButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_date_string"
+        android:onClick="selectDateButtonClick" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+	    <Button
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:hint="@string/add_string"
+	        android:onClick="addButtonClick" />
+	    
+	    <Button
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:hint="@string/save_string"
+	        android:onClick="saveButtonClick" />
+	    
+	    <Button
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:hint="@string/cancel_string"
+	        android:onClick="cancelButtonClick" />
+    
+    </LinearLayout>
+    
+</LinearLayout>

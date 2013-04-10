@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context=".AddJob" >
+
+    <EditText 
+        android:id="@+id/jobNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:inputType="text"
+        android:maxLength="25"
+        android:hint="@string/job_name_string" />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal" > 
+               
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:hint="@string/money_sign_string" />
+        
+	    <EditText 
+	        android:id="@+id/jobPayrateEditText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal"
+	        android:maxLength="8"
+	        android:hint="@string/job_payrate_string" /> 
+	        
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:hint="@string/add_string"
+	        android:onClick="addButtonClick" />
+	    
+	    <Button
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:hint="@string/cancel_string"
+	        android:onClick="cancelButtonClick" />
+    
+    </LinearLayout>
+
+</LinearLayout>

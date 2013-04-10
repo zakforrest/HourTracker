@@ -1,0 +1,12 @@
+
+HOURTRACKER
+
+Can create jobs and add hours to them. Data is sent to a database as specified in server.serverInfo.php.
+
+To do:
+Allow export and import of hours
+Allow detection of job locations
+Add description of the job
+Add more of a graphic interface
+
+Bugs:

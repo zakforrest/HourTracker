@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HourTracker</string>
+    <string name="add_hours_string">Add Hours</string>
+    <string name="add_job_string">Add Job</string>
+    <string name="view_history_string">View History</string>
+    <string name="title_activity_add_hours">Add Hours</string>
+    <string name="select_job_string">Select Job</string>
+    <string name="job_name_string">Job Name</string>
+    <string name="select_start_time_string">Select Start Time</string>
+    <string name="select_end_time_string">Select End Time</string>
+    <string name="select_date_string">Select Date</string>
+    <string name="money_sign_string">$</string>
+    <string name="job_payrate_string">Pay/Hour"</string>
+    <string name="error_loading_jobs_message">Please try again.</string>
+    <string name="error_loading_history_message">Please refresh.</string>
+    <string name="unfinished_hours_message">Please finish all the selections.</string>
+    <string name="unfinished_job_message">Please finish all the selections.</string>
+    <string name="incorrect_hours_message">Start time cannot be after end time.</string>
+    <string name="error_submitting_hours_message">Please try again.</string>
+    <string name="error_submitting_job_message">Please try again.</string>
+    <string name="job_already_exists_message">A job with that name already exists.</string>
+    <string name="add_string">Add</string>
+    <string name="save_string">Save</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="title_activity_add_job">Add Job</string>
+    <string name="title_activity_view_history">View History</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>
